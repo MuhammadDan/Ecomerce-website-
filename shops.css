@@ -1,0 +1,38 @@
+body{
+    padding-top: 100px;
+}
+.shop{
+    color: blue;
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nechai{
+    text-align: center;
+}
+.navbar-toggler{
+    background-color:white;
+}
+.footer{
+    background-color: darkblue;
+    padding:70px 0;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.mob{
+    list-style-type: none;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    color: white;
+}

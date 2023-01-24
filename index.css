@@ -1,0 +1,157 @@
+body{
+    /* yai padding top is lyai diya kyu kai jab navbar fix kiya to pic kai
+    uper araha tha tabhi padding top say nechai hogaya */
+   padding-top: 56px;
+}
+.left-side{
+    height: 70vh;
+}
+.right-side-up-1 .right-side-up-2{
+    height: 35vh;
+}
+.right-down-3{
+    height: 35vh;
+    padding-top: 25px;
+}
+.img-thumbnail{
+    position: relative;
+}
+.text{
+    position:absolute;
+    bottom: 200px;
+    left: 45px;
+}
+.row{
+    flex-wrap: wrap;
+}
+.sms{
+    position: absolute;
+    bottom: 400px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+.sms1{
+    position: absolute;
+    bottom:400px;
+    padding-left: 25px;
+}
+.img-ghg1 .img-ghg2{
+    position: relative;
+}
+.sms3{
+    position: absolute;
+    bottom:200px;
+    padding-left: 25px;
+}
+.sms4{
+    color: white;
+    position: absolute;
+    bottom:200px;
+    padding-left: 25px;
+}
+.coll-2{
+    color: purple;
+    text-align: center;
+}
+.card-latest{
+    padding-left: 90px;
+    display: inline-block;
+    justify-content: space-around;
+}
+.card-body{
+    text-align: center;
+}
+.footer{
+    background-color: darkblue;
+    padding:70px 0;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.mob{
+    list-style-type: none;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    color: white;
+}
+@media (max-width: 412px){
+    .left-side{
+        padding-right: 12px;
+    }
+    .row{
+        flex-wrap: wrap;
+        padding-top:4px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 1000px;
+    }
+    .img-thumbnail{
+        width: 250px;
+        margin-left: -10px;
+        position: relative;
+    }
+    .text{
+        position:absolute;
+        bottom: 64vh;
+        font-size: 20px;
+        margin-left: -15px;
+    }
+    .img-shirt{
+        margin-top: -70vh;
+        width: 300px;
+        margin-left: 9px;
+    }
+    .sms{
+        position: absolute;
+        padding-left: -20px;
+        bottom: 42vh;
+    }
+    .img-shoes{
+        margin-top: -40vh;
+        width: 180px;
+        margin-left: 10px;
+    }
+    .sms1{
+        position: absolute;
+        bottom: 24vh;
+    }
+    .img-ghg1{
+        margin-top: -285vh;
+        width: 300px;
+        margin-left: 9px;
+    }
+    .sms3{
+        position: absolute;
+        bottom: 9vh;
+    }
+    .img-ghg2{
+        margin-top: -310vh;
+        width: 300px;
+        margin-left: 9px;
+    } 
+    .sms4{
+        position: absolute;
+        bottom: -15vh;
+    } 
+    .we{
+        font-size: small;
+    }
+    .New{
+        margin-top: -440vh;
+        margin-left: -15px;
+    }
+    .footer{
+        width: 50vh;
+    }
+}
